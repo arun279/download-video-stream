@@ -4,8 +4,8 @@ from moviepy.video.io.VideoFileClip import VideoFileClip
 from moviepy.editor import VideoFileClip, concatenate_videoclips
 import tqdm
 
-TEMP_FOLDER = "D:\\downloads\\projects\\data\\temp"
-BASE_URL = "https://static.maestro.io/6388d822732876002fa33b7a/63d6cc457c7e5a307a9e5faa/"
+TEMP_FOLDER = ""
+BASE_URL = ""
 START_NUM = 1
 
 def download_video_parts():
